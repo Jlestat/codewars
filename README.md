@@ -1,1 +1,1 @@
-# codewars
+# codewars olimp tasks
