@@ -1,4 +1,9 @@
 def primeFactors(n: int) -> str:
+    """
+
+    :param n: int
+    :return: str
+    """
     i = 2
     final_set = {}
     while n / i != 1:
