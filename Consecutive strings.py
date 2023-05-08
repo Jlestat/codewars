@@ -1,4 +1,6 @@
 def longest_consec(strarr: list, k: int) -> str:
+    """
+    """
     if k == 0 or k > len(strarr) or k < 0:
         return ''
     else:

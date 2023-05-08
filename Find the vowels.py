@@ -1,4 +1,5 @@
 def vowel_indices(word: str) -> list:
+    "" "" 
     final_list = []
     for i in range(len(word)):
         if word[i] in 'aeiouyAEIOUY':
