@@ -1,4 +1,9 @@
 def group_by_commas(n: int) -> str:
+    """
+
+    :param n: int
+    :return: str
+    """
     final_str = ''
     n = str(n)[::-1]
     for i in range(len(str(n))- 1, -1, -1):
