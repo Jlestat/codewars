@@ -1,4 +1,9 @@
 def solve(arr):
+    """
+
+    :param arr: list
+    :return: list
+    """
     n = set(arr)
     f = {}
     for i in n:
