@@ -1,4 +1,8 @@
 def mineLocation(field: list) -> list:
+    """
+    :param field: list
+    :return: list
+    """
     final_list = []
     for i in range(len(field)):
         for j in range(len(field[i])):
