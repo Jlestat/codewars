@@ -1,4 +1,8 @@
 def first_dup(s: str) -> str:
+    """
+    :param s: str
+    :return: str
+    """
     break_out_flag = False
     final_str = ''
     for i in range(len(s)):
