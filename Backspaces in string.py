@@ -1,4 +1,9 @@
 def clean_string(s: str) -> str:
+    """
+
+    :param s: str
+    :return: str
+    """
     final_str = ''
     for i, j in enumerate(s):
         if j == '#':
