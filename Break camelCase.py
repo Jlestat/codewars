@@ -1,4 +1,9 @@
 def solution(s):
+    """
+
+    :param s: str
+    :return: str
+    """
     res_string = ''
     for i in s:
         if i == i.lower():
