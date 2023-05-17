@@ -1,4 +1,8 @@
 def even_fib(m: int) -> int:
+    """
+    :param m: int
+    :return: int
+    """
     final_sum = 0
     a = 0
     b = 1
