@@ -1,4 +1,6 @@
 def capitalize(s: str) -> list:
+    "" "" 
+    "" 
     final_list = []
     first_str = ''
     second_str = ''
