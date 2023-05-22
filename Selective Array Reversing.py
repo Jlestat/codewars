@@ -1,4 +1,9 @@
 def sel_reverse(arr: list,l: int) -> list:
+    """
+    :param arr: list
+    :param l: int
+    :return: list
+    """
     final_list = []
     if l == 0:
         return arr
