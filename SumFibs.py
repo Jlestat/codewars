@@ -1,4 +1,8 @@
 def sum_fibs(n: int) -> int:
+    """
+    :param n: int
+    :return: int
+    """
     final_sum = 0
     a = 1
     b = 1
