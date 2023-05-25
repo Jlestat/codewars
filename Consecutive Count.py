@@ -1,4 +1,9 @@
 def get_consective_items(items: str, key: str) -> int:
+    """
+    :param items: str/int
+    :param key: str/int
+    :return: int
+    """
     items = str(items)
     key = str(key)
     final_count = 0
