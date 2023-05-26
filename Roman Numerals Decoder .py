@@ -5,6 +5,10 @@ roman_number = (
 )
 
 def solution(roman: str) -> int:
+    """
+    :param roman: str
+    :return: int
+    """
     res = 0
     index = 0
     for i, j in roman_number:
