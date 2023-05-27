@@ -1,4 +1,9 @@
 def add_binary(a: int,b: int) -> str:
+    """
+    :param a: int
+    :param b: int
+    :return: str
+    """
     new_number = a + b
     final_str = ''
     while new_number > 0:
