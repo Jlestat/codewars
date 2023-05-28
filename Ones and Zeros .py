@@ -1,4 +1,8 @@
 def binary_array_to_number(arr: list) -> int:
+    """
+    :param arr: list
+    :return: int
+    """
     final_sum = 0
     n = 0
     for i in range(len(arr)-1, -1, -1):
