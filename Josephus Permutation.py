@@ -1,4 +1,9 @@
 def josephus(items: list, k: int) -> list:
+    """
+    :param items: list
+    :param k: int
+    :return: list
+    """
     curr_list = items
     final_list = []
     i = 0
