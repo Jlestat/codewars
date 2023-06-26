@@ -1,6 +1,10 @@
 import collections
 
 def dominator(arr: list) -> int:
+    """
+    :param arr: list
+    :return: int
+    """
     if len(arr) == 0:
         return -1
     elif len(arr) == 1:
