@@ -1,4 +1,8 @@
 def permute_a_palindrome(input: str) -> bool:
+    """
+    :param input: str
+    :return: bool
+    """
     if len(input) % 2 == 0:
         if len(input) // 2 == len(set(input)) or len(set(input)) == 1:
             return True
