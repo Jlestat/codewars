@@ -1,4 +1,8 @@
 def is_alt(s: str) -> bool:
+    """
+    :param s: str
+    :return: bool
+    """
     vowels = 'aeiou'
     alph = 'bcdfghjklmnpqrstvwxyz'
     for i, j in zip(s, s[1:]):
