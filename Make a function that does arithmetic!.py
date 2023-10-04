@@ -1,4 +1,4 @@
-def arithmetic(a, b, operator):
+def arithmetic(a: int, b: int, operator: str) -> int or float:
     if operator == 'add':
         return a + b
     elif operator == 'subtract':
