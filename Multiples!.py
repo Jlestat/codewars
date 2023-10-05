@@ -1,4 +1,8 @@
-def multiple(x):
+def multiple(x: int) -> str:
+    """
+    :param x: int
+    :return: str
+    """
     if x % 3 == 0 and x % 5 == 0:
         return 'BangBoom'
     elif x % 5 == 0:
