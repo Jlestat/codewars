@@ -1,5 +1,10 @@
 
-def string_breakers(n, st):
+def string_breakers(n: int, st: str) -> str:
+    """
+    :param n: int
+    :param st: str
+    :return: str
+    """
     final_str = st.replace(" ", "")
     return '\n'.join(final_str[i:i+n] for i in range(0, len(final_str), n))
 
