@@ -1,4 +1,4 @@
-def fibs_fizz_buzz(n):
+def fibs_fizz_buzz(n: int) -> list[int, str]:
     res = []
     a = 1
     b = 1
