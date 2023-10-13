@@ -1,4 +1,10 @@
 def get_sum(a: int,b: int) -> int:
+    """
+
+    :param a:
+    :param b:
+    :return:
+    """
     fin_sum = 0
     if a < b:
         for i in range(a, b + 1):
