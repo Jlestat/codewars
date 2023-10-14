@@ -1,9 +1,9 @@
 def get_sum(a: int,b: int) -> int:
     """
 
-    :param a:
-    :param b:
-    :return:
+    :param a: int
+    :param b: int
+    :return: int
     """
     fin_sum = 0
     if a < b:
