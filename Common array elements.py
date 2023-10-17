@@ -6,7 +6,7 @@ def common(a: list, b: list, c: list) -> int:
     :param a: first list
     :param b: second list
     :param c: third list
-    :return:
+    :return: int
     """
     list1 = Counter(a)
     list2 = Counter(b)
