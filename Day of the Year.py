@@ -1,7 +1,7 @@
 from datetime import date
 
 
-def to_day_of_year(dat):
+def to_day_of_year(dat: list) -> int:
     d = dat[0]
     m = dat[1]
     y = dat[2]
