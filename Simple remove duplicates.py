@@ -1,4 +1,4 @@
-def solve(arr):
+def solve(arr: list) -> list:
     res = []
     for i in arr[::-1]:
         if i not in res:
