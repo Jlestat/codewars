@@ -1,4 +1,4 @@
-def up_array(arr):
+def up_array(arr: list):
     if not arr or any(x < 0 or x > 9 for x in arr):
         return None
     elif len(arr) == 1:
