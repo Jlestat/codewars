@@ -1,7 +1,7 @@
 import re
 
 
-def range_parser(s):
+def range_parser(s: str) -> list:
     res = []
     new_list = re.split(",|, ", s)
     for i in new_list:
