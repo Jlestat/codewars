@@ -1,4 +1,4 @@
-def min_value(digits):
+def min_value(digits: list) -> int:
     set_dig = set(digits)
     new_list = list(set_dig)
     new_list.sort()
