@@ -1,4 +1,4 @@
-def largest_pair_sum(numbers):
+def largest_pair_sum(numbers: list) -> int:
     res = 0
     res += max(numbers)
     numbers.remove(max(numbers))
