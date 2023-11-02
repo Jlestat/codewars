@@ -1,4 +1,4 @@
-def no_odds(values):
+def no_odds(values: list) -> list:
     res = []
     for i in values:
         if i % 2 == 0:
