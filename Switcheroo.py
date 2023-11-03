@@ -1,4 +1,4 @@
-def switcheroo(s):
+def switcheroo(s: str) -> str:
     res = ''
     for i in s:
         if i == 'b':
