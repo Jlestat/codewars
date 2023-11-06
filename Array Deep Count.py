@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-def deep_count(a):
+def deep_count(a: list) -> int:
     if not isinstance(a, list):
         return 0
     if len(a) == 0:
