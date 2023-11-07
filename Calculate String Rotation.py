@@ -1,4 +1,4 @@
-def shifted_diff(str1, str2):
+def shifted_diff(str1: str, str2: str):
     if len(str1) != len(str2):
         return -1
 
