@@ -1,4 +1,4 @@
-def passed(lst):
+def passed(lst: list) -> int or str:
     n = 0
     c = 0
     for i in lst:
