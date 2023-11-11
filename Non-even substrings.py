@@ -1,4 +1,4 @@
-def solve(s):
+def solve(s: str) -> int:
     count = 0
     for i in range(len(s)):
         for j in range(i, len(s)):
