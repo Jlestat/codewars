@@ -1,4 +1,4 @@
-def first_n_smallest(arr, n):
+def first_n_smallest(arr: list, n: int) -> list:
     if n <= 0:
         return []
     enumerated_arr = list(enumerate(arr))
