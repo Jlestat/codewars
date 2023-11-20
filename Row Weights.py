@@ -1,4 +1,4 @@
-def row_weights(array):
+def row_weights(array: list) -> tuple:
     first_team = 0
     second_team = 0
     for i in range(len(array)):
