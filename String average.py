@@ -1,4 +1,8 @@
-def average_string(s):
+def average_string(s: str) -> str:
+    """
+    :param s: str
+    :return: str
+    """
     digit = {
         'zero': 0,
         'one': 1,
