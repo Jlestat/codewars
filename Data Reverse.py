@@ -1,4 +1,8 @@
-def data_reverse(data):
+def data_reverse(data: list) -> list:
+    """
+    :param data: list
+    :return: list
+    """
     str_data = [str(i) for i in data]
     temp = ''.join(str_data)
     res = []
