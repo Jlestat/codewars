@@ -1,4 +1,4 @@
-def ips_between(start_ip, end_ip):
+def ips_between(start_ip: str, end_ip: str) -> int:
     start_ip_int = sum(int(octet) << (8 * (3 - i)) for i, octet in enumerate(start_ip.split('.')))
     end_ip_int = sum(int(octet) << (8 * (3 - i)) for i, octet in enumerate(end_ip.split('.')))
 
