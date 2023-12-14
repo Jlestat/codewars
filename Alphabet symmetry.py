@@ -1,4 +1,8 @@
 def solve(strings : list[str]) -> list[int]:
+    """
+    :param strings: list[str]
+    :return: list[int]
+    """
     alpha = 'abcdefghijklmnopqrstuvwxyz'
     res = []
     for i in strings:
