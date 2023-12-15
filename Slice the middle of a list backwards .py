@@ -1,4 +1,8 @@
-def reverse_middle(lst: list):
+def reverse_middle(lst: list) -> list[int]:
+    """
+    :param lst: list
+    :return: list
+    """
     if len(lst) % 2 == 0:
         return lst[len(lst) // 2 - 1:len(lst) // 2 + 1][::-1]
     else:
