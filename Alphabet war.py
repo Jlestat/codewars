@@ -1,4 +1,5 @@
 def alphabet_war(fight: str) -> str:
+    
     left_side = 0
     right_side = 0
     for i in fight:
