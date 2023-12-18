@@ -1,4 +1,4 @@
-def more_zeros(s):
+def more_zeros(s: str) -> list:
     res = []
     for i in s:
         ascii_code = ord(i)
