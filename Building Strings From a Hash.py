@@ -1,4 +1,8 @@
-def solution(pairs: dict):
+def solution(pairs: dict) -> str:
+    """
+    :param pairs: dict
+    :return: str
+    """
     res = ''
     for k, v in pairs.items():
         res += f'{k} = {v},'
