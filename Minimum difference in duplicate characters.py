@@ -1,6 +1,6 @@
 def min_distance_repeating_char(s: str) -> tuple or None:
     """
-    :param s: str, make a string
+    :param s: str, make a string.
     :return: tuple or None
     """
     if not s:
