@@ -1,4 +1,4 @@
-def avg_array(arrays):
+def avg_array(arrays: list):
     num_arrays = len(arrays)
     array_length = len(arrays[0])
     averages = []
