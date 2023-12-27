@@ -1,5 +1,9 @@
 from itertools import permutations
 def late_clock(*digits):
+    """
+    :param digits: int
+    :return: str
+    """
     perms = permutations(digits)
     max_time = None
     for h1, h2, m1, m2 in perms:
