@@ -1,2 +1,2 @@
-def find_needle(haystack):
+def find_needle(haystack: list) -> str:
     return f'found the needle at position {haystack.index("needle")}'
