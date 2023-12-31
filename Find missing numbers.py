@@ -1,4 +1,4 @@
-def find_missing_numbers(arr):
+def find_missing_numbers(arr: list) -> list:
     try:
         r = [i for i in range(arr[0], arr[-1])]
     except Exception:
