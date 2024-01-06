@@ -1,4 +1,4 @@
-def is_lucky(ticket):
+def is_lucky(ticket: str) -> bool:
     try:
         if int(ticket[3]) + int(ticket[4]) + int(ticket[5]) == int(ticket[0]) + int(ticket[1]) + int(ticket[2]):
             return True
