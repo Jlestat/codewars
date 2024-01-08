@@ -1,4 +1,4 @@
-def lottery(s: str):
+def lottery(s: str) -> str:
     curr_list = []
     for i in s:
         if i.isdigit() and i not in curr_list:
