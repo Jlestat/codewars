@@ -1,4 +1,4 @@
-def switcher(arr):
+def switcher(arr: list) -> str:
     alpha = 'zyxwvutsrqponmlkjihgfedcba!? '
     res = ''
     for i in arr:
