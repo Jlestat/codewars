@@ -1,4 +1,4 @@
-def halving_sum(n):
+def halving_sum(n: int) -> int:
     res = 0
     while n > 0:
         res += n
