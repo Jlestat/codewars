@@ -1,7 +1,7 @@
 import random
 import string
 
-def password_gen():
+def password_gen() -> str:
     length = random.randint(6, 20)
 
     password = [
