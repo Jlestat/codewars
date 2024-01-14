@@ -1,4 +1,8 @@
 def averages(arr: list) -> list:
+    """
+    :param arr: list
+    :return: list
+    """
     try:
         res = []
         for i in range(len(arr) - 1):
