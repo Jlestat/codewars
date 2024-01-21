@@ -1,4 +1,4 @@
-def cube_odd(arr):
+def cube_odd(arr: list) -> int:
     result = 0
     for i in arr:
         if type(i) != int:
