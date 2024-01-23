@@ -1,6 +1,7 @@
 from collections import Counter
 
-def ordered_count(inp):
+
+def ordered_count(inp: str) -> list[tuple]:
     new_list = Counter(inp)
     result = []
     for k, w in new_list.items():
