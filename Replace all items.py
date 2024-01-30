@@ -1,3 +1,4 @@
+
 def replace_all(obj: list or str, find, rep):
     if type(obj) == list:
         res = []
