@@ -1,4 +1,4 @@
-def spacify(string):
+def spacify(string: str) -> str:
     a = ''
     for i in string:
         a += i + ' '
