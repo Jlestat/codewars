@@ -1,4 +1,8 @@
-def group(arr: list) -> list:
+def group(arr: list) -> list[list]:
+    """
+    :param arr: list
+    :return: list[list]
+    """
     result = []
     curr_list = []
     for i in arr:
