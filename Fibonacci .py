@@ -1,4 +1,8 @@
 def fibonacci(n: int) -> int:
+    """
+    :param n: int
+    :return: int
+    """
     a = 0
     b = 1
     result = []
