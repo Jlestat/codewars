@@ -1,4 +1,4 @@
-def name_value(my_list):
+def name_value(my_list: list[str]) -> list[int]:
     alpha = 'abcdefghijklmnopqrstuvwxyz'
     n = 0
     result = []
