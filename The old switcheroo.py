@@ -1,4 +1,4 @@
-def vowel_2_index(string):
+def vowel_2_index(string: str) -> str:
     res = ''
     for i in range(len(string)):
         if string[i] in 'aeiou':
